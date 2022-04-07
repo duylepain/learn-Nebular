@@ -7,11 +7,13 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { NbEvaIconsModule } from '@nebular/eva-icons';
 import { AppRoutingModule } from './app-routing.module';
 import { NebularCompComponent } from './nebular-comp/nebular-comp.component';
+import { GlobalCompComponent } from './nebular-comp/global-comp/global-comp.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    NebularCompComponent
+    NebularCompComponent,
+    GlobalCompComponent
   ],
   imports: [
     BrowserModule,
